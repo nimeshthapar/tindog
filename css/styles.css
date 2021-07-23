@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat-thin', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #af8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* text section */
+.h-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.big-text {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.h-three-text {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* section color */
+.colored-section {
+  background-color: #FF123A;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+/* Download Button */
+.download-btn {
+  margin: 5% 10px 5% 0;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-img {
+  background: none;
+  transform: rotate(25deg);
+  width: 17rem;
+  margin: 3rem 5rem;
+  position: absolute;
+  right: 15%;
+}
+
+/* features centering */
+#features {
+  position: relative;
+}
+
+.r-features {
+  margin: 0 50px;
+}
+
+.c-features {
+  margin: 100px 0;
+}
+
+/* features icon */
+.f-favawesome {
+  margin-bottom: 1rem;
+  color: #ff897e;
+}
+
+.f-favawesome:hover {
+  font-size: 64px;
+  margin-bottom: 1rem;
+  color: #FF123A;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ff897e;
+  color: #fff;
+}
+
+.t-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/* press */
+#press {
+  background-color: #ff897e;
+  padding-bottom: 3%
+}
+
+.p-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.p-col {
+  padding: 3% 2%;
+}
+
+.signup-btn {
+  margin: 5% 0;
+}
+
+/* footer section */
+
+.foot-icon {
+  color: #000;
+  margin: 10px 15px;
+}
+
+@media (max-width: 1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
